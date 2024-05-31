@@ -1,0 +1,457 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#home {
+  display: flex;
+}
+
+#home::before {
+  content: "";
+  background-image: url(./images/backpic.svg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1060px;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+#logo img {
+  height: 52px;
+  margin: 30px 60px;
+}
+
+#mobile img {
+  padding: 105px 79px;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 120px;
+  padding: 9px 28px;
+  margin: 85px 10px 10px 20px;
+  width: 110%;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 19px;
+  padding: 0px 47px;
+  margin: 10px 10px 10px 15px;
+  width: 70%;
+}
+
+.btn {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(118, 52, 191);
+  padding: 19px 40px;
+  margin: 45px 59px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(107, 28, 180);
+}
+
+/* section 2  : finances*/
+
+.finances {
+  margin: 100px 0px;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  margin: 140px 60px;
+  border-radius: 30px;
+}
+
+.para {
+  margin: 190px 30px;
+}
+
+.one {
+  font-size: 25px;
+  padding-left: 28px;
+  font-family: "Rubik", sans-serif;
+}
+
+.oneplace {
+  font-size: 80px;
+  width: 88%;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+
+.body {
+  font-weight: lighter;
+  font-size: 15px;
+  width: 64%;
+  padding-left: 28px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* para2 */
+
+.container {
+  display: flex;
+  background-color: rgb(243, 245, 246);
+}
+
+.images2 img {
+  margin: 140px 60px;
+  border-radius: 30px;
+  align-items: flex-end;
+}
+
+.para2 {
+  margin: 190px 30px;
+  align-items: flex-start;
+}
+
+.two {
+  font-size: 25px;
+  padding-left: 28px;
+  font-family: "Rubik", sans-serif;
+}
+
+.twoplace {
+  font-size: 80px;
+  width: 88%;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+
+.body2 {
+  font-weight: lighter;
+  font-size: 15px;
+  width: 67%;
+  padding-left: 28px;
+  font-family: "Rubik", sans-serif;
+}
+
+.body3 {
+  font-weight: lighter;
+  font-size: 15px;
+  width: 67%;
+  padding-left: 27px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* section-3 */
+
+.container2 {
+  background-color: rgb(0, 0, 0);
+  height: 900px;
+
+  font-family: "Rubik", sans-serif;
+}
+
+.sec-3 {
+  padding: 70px 450px;
+}
+
+.review {
+  font-size: 25px;
+  padding: 34px 200px;
+  margin-left: 38px;
+}
+
+.heading1 {
+  font-size: 70px;
+  width: 123%;
+  margin-left: 1px;
+}
+
+.img1 {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+.women {
+  border-radius: 10px;
+}
+
+.easy {
+  width: 30%;
+  padding-bottom: 35px;
+}
+
+.easy2 {
+  width: 40%;
+  padding-bottom: 33px;
+}
+
+.personal1 {
+  width: 72%;
+  padding-bottom: 35px;
+  font-weight: lighter;
+}
+
+.personal2 {
+  width: 80%;
+  padding-bottom: 50px;
+  font-weight: lighter;
+}
+
+.anna {
+  padding-left: 60px;
+  font-weight: lighter;
+}
+
+.anna2 {
+  padding-left: 60px;
+  font-weight: lighter;
+}
+
+/* section-4 */
+
+.flex-container {
+  display: flex;
+  background-color: rgb(22, 22, 22);
+  height: 400px;
+  font-family: "Rubik", sans-serif;
+  justify-content: space-evenly;
+  
+
+}
+
+.members{
+  font-size: 25px;
+  padding-left: 60px;
+  font-weight: lighter;
+  line-height: 2px;
+}
+
+.users{
+  font-size: 25px;
+  padding-left: 145px;
+  font-weight: lighter;
+  line-height: 2px;
+  
+}
+
+.lenders{
+  font-size: 25px;
+  padding-left: 118px;
+  font-weight: lighter;
+  line-height: 2px;
+}
+
+/* section-5 */
+
+#sec5{
+background-image: url('images/backpic2.svg');
+display: flex;
+height: 800px;
+font-family: "Rubik", sans-serif;
+
+}
+
+#one-mobile{
+  padding-left: 190px;
+  padding-top: 80px;
+
+ 
+}
+
+
+.what {
+  font-family: "Rubik", sans-serif;
+  font-size: 70px;
+  width: 65%;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-top: 150px;
+}
+
+.control{
+  font-family: "Rubik", sans-serif;
+  font-size: 19px;
+  width: 73%;
+  margin-left: 45px;
+font-weight: lighter;
+}
+
+.btn2 {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(118, 52, 191);
+  padding: 19px 43px;
+  margin-left: 120px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: rgb(107, 28, 180);
+}
+
+
+.btn3 {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(224, 53, 132);
+  padding: 19px 41px;
+  margin-left: 20px;
+  margin-top: 34px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.btn3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn3:hover {
+  background-color: rgb(241, 70, 150);
+}
+
+
+/* section-6 */
+
+.endsec {
+  display: flex;
+}
+.subscribe {
+
+  margin: 80px 120px;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.blickimg {
+  padding: 7px 10px ;
+  height: 20%;
+}
+
+
+.dot {
+
+  font-size: 20px;
+  padding: 8px 10px;
+  font-weight:400;
+}
+.privacy {
+  padding-left: 10px;
+  padding-top: 13px ;
+}
+
+.privacy a {
+
+  color: #000000;
+}
+
+.terms {
+  padding: 10px;
+}
+.terms a {
+  
+  color: #000000;
+}
+
+.svg {
+  padding: 15px;
+}
+
+.twitter {
+  padding: 10px;
+}
+
+.fb {
+  padding: 10px;
+
+}.insta {
+  padding: 10px;
+}
+
+
+.newsletter {
+
+margin-top: 100px ;
+margin-left: 150px;
+}
+
+
+
+strong {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+form {
+  padding-top: 25px;
+  padding-left: 1px;
+  font-family: "Rubik", sans-serif;
+}
+
+
+label {
+  color: #1a1a1a;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+
+
+}
+
+#Email {
+   padding: 16px;
+   background-color: #f1f1f1;
+   width: 120%;
+   color: grey;
+   border: none;
+   font-family: "Rubik", sans-serif;
+   font-size: 15px;
+   margin-top: 12px;
+}
+
+
+#submit {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(118, 52, 191);
+  padding: 16px 38px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin-top: 22px;
+}
+
+
+#submit:hover {
+  background-color: rgb(107, 28, 180);
+}
+
+
+
+
+
+
+
+
